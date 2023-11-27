@@ -1,0 +1,29 @@
+img {
+    width: 100%;
+}
+
+
+.gallery {
+  text-align: center;
+  display: flex; 
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  flex-basis: 100%;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+  
+
+.gallery-item img {
+  width: 30%;
+  height: 40%;
+  border-radius: 10%;
+
+}
+
+@media screen and (min-width: 768px) {
+  /* columns for home page */
+  .gallery-item {
+    flex-basis: 40%;
+  }
+}
